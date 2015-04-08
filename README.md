@@ -11,7 +11,7 @@ This assignment will build upon basic Git knowledge and illustrate a full Git wo
 - Add a new JavaScript file. 
 - Add a new CSS file.
 - Edit the HTML file to include your new files.
-- Fill out the markdown document 
+- Fill out the markdown document, following the GitHub guide [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
 	- Explain that this is a basic HTML template.
  	- Explain how to use it, including at least one example,  how to clone it using Git, what the files are and where to add specific types of content.
  	- Add your contact information
@@ -30,7 +30,7 @@ This is the file you're reading. Add any content you like!
 
 The Document Type Declaration, or doctype, is a way to tell the browser what type of document it is looking at. It goes at the top of the document, and until other HTML tags, it does not need a closing bracket.
 
-```
+```html
 <!doctype html>
 ```
 
@@ -40,7 +40,7 @@ The `<html>` element is the document root. It is the recommended place for speci
 
 It has a start tag `<html>` and an end tag `</html>`. The html element includes the `lang` attribute with a value of `en`, which specifies that the document is in English.
 
-```
+```html
 <html lang="en">
 ...
 </html>
@@ -51,7 +51,7 @@ It has a start tag `<html>` and an end tag `</html>`. The html element includes 
 The `<head>` element is a container for metadata (*data about data*). HMetadata is not displayed. Metadata typically defines document title, styles, links, scripts, and other meta information. 
 
 
-```
+```html
 <head>
 ...
 </head>
@@ -67,7 +67,7 @@ The first line inside the head is the one that defines the character encoding fo
 Meta data is optional. Here we've also included the description and author.
 
 
-```
+```html
 <head>
 <meta charset="utf-8">
 ...
@@ -82,7 +82,7 @@ Meta data is optional. Here we've also included the description and author.
 The `<title>` element defines the title of the document and is required in all HTML/XHTML documents. It defines a title in the browser toolbar,
 provides a title for the page when it is added to favorites, and displays a title for the page in search engine results.
 
-```
+```html
 <title>Empty HTML5 Template</title>
 ```
 
