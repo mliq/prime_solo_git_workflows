@@ -1,30 +1,49 @@
-# Week 1 day 3 - Git Workflows
-##Assignment Overview
+#README.md
+This file, explaining the purpose of this repo.
 
-This assignment will build upon basic Git knowledge and illustrate a full Git workflow, much like workflows used in production environments. 
+##Contact Info
+Michael Liquori
+liquori@gmail.com
 
-**Instructions:**
+## License Info
+The MIT License (MIT)
 
-- **Fork** this repository, which contains an `index.html` file and a markdown file named `README.md`. `fork` is much like `clone`, in that it is a copy of the existing repository, except that you can contribute back to the original project through 'pull requests' (or by pushing to 'upstream' if you have contributor access). 
-- Create a new **branch** named 'readme'. This is what is called a 'feature branch' and is used to work on features without impacting the main branch.
-- Checkout the "readme" branch. 
-- Add a new JavaScript file. 
-- Add a new CSS file.
-- Edit the HTML file to include your new files.
-- Fill out the markdown document, following the GitHub guide [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
-	- Explain that this is a basic HTML template.
- 	- Explain how to use it, including at least one example,  how to clone it using Git, what the files are and where to add specific types of content.
- 	- Add your contact information
-	- Add a [software license of your choice](http://choosealicense.com/).
-- Once you're completely finished with the assignment, merge your branch back into the master branch of your repository to signal that the "feature" is complete.
-- Submit a pull request to *this* repository.
+Copyright (c) [2015] [Michael Liquori]
 
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-#Contents
-##README.md
-This is the file you're reading. Add any content you like!
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+## Recommended Uses:
+
+Uses   |  Recommended?
+------------ | -------------
+for Good | Yes
+for Evil | No!
+
+## How to Use
+
+#### 1. Clone in Git.
+In Terminal, enter: 
+
+```sh 
+git clone https://github.com/mliq/prime_solo_git_workflows.git
+```
+#### 2. Place your HTML in `index.html`. 
+See index.html section below for more in-depth information.
+#### 3. Place your Javascript in `script.js`.
+#### 4. Place your CSS styling in `stylesheet.css`. 
 
 ##index.html
+This is a basic HTML Template.
 
 ###Doctype
 
@@ -85,6 +104,15 @@ provides a title for the page when it is added to favorites, and displays a titl
 ```html
 <title>Empty HTML5 Template</title>
 ```
+
+##stylesheet.css
+
+CSS goes here.
+
+##script.js
+
+Javascript goes here.
+
 
 ####Be sure to commit your changes to your development branch frequently!
 ![image](http://www.fillmurray.com/415/300)
