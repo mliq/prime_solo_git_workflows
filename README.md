@@ -5,7 +5,7 @@ This assignment will build upon basic Git knowledge and illustrate a full Git wo
 
 **Instructions:**
 
-- **Fork** this repository, which contains an `index.html` file and a markdown file named `README.md`. `fork` is much like `clone`, in that it is a copy of the existing repository, except that you can contribute back to the original project through 'pull requests' or by pushing to 'upstream' if you have contributor access. 
+- **Fork** this repository, which contains an `index.html` file and a markdown file named `README.md`. `fork` is much like `clone`, in that it is a copy of the existing repository, except that you can contribute back to the original project through 'pull requests' (or by pushing to 'upstream' if you have contributor access). 
 - Create a new **branch** named 'readme'. This is what is called a 'feature branch' and is used to work on features without impacting the main branch.
 - Checkout the "readme" branch. 
 - Add a new JavaScript file. 
@@ -17,10 +17,10 @@ This assignment will build upon basic Git knowledge and illustrate a full Git wo
  	- Add your contact information
 	- Add a [software license of your choice](http://choosealicense.com/).
 - Once you're completely finished with the assignment, merge your branch back into the master branch of your repository to signal that the "feature" is complete.
-- Submit a pull request to *this* repo.
+- Submit a pull request to *this* repository.
 
 
-##Contents
+#Contents
 ##README.md
 This is the file you're reading. Add any content you like!
 
